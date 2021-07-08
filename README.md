@@ -22,7 +22,7 @@ It demonstrates:
     ````
 * Get post by post number `GET /post/<post_number>`
 
-##Commands
+## Commands
 ### Deploy and run the webservice on AWS
 
 1. Deploy resources to AWS running `make deploy`
