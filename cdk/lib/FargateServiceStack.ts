@@ -61,7 +61,6 @@ export class FargateServiceStack extends cdk.Stack {
       taskImageOptions: { image: ecs.RepositoryImage.fromDockerImageAsset(asset) },
       memoryLimitMiB: 2048, // Default is 512
       publicLoadBalancer: true // Default is false
-      li
     });
 
 
