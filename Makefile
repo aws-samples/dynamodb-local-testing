@@ -14,9 +14,9 @@ run_docker: build_docker
 	docker run -it -e PARAM1=test1 -p 5050:5050 -e AWS_PROFILE=${AWS_PROFILE} -v ${HOME}/.aws:/root/.aws ddb-local-fargate
 
 test:
-	docker compose up --detach;
+	docker-compose up --detach;
 	cd pkg/service && go test;
-	docker compose down;
+	docker-compose down;
 
 deploy:
 	cd cdk;\
