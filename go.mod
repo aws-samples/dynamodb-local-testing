@@ -3,13 +3,10 @@ module dynamodb-local-test
 go 1.16
 
 require (
-	github.com/aws/aws-cdk-go/awscdk v1.111.0-devpreview
 	github.com/aws/aws-sdk-go-v2 v1.3.2
 	github.com/aws/aws-sdk-go-v2/config v1.1.6
 	github.com/aws/aws-sdk-go-v2/feature/dynamodb/attributevalue v1.0.6
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.2.2
-	github.com/aws/constructs-go/constructs/v3 v3.3.97
-	github.com/aws/jsii-runtime-go v1.30.0
 	github.com/gin-gonic/gin v1.7.1
 	github.com/go-playground/validator/v10 v10.5.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
@@ -19,10 +16,9 @@ require (
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.7.0
-	github.com/tidwall/gjson v1.8.1
 	github.com/ugorji/go v1.2.5 // indirect
 	golang.org/x/crypto v0.0.0-20210503195802-e9a32991a82e // indirect
-	golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/text v0.3.6 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
