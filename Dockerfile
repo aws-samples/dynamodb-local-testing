@@ -1,4 +1,4 @@
-FROM golang:1.15 AS build-image
+FROM golang:1.20 AS build-image
 
 WORKDIR /app
 
